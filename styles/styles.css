@@ -1,0 +1,137 @@
+
+.fon-dom {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.banner-section {
+    position: relative;
+    height: 80%;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    margin: 0 10%;
+    font-size: 110%;
+}
+
+.banner-info {
+    width: 50%;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10%;
+    background-color: rgba(128, 128, 128, 0.207);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.send {
+    padding: 20px 40px;
+    font-size: 17px;
+    background: linear-gradient(rgba(73, 73, 73, 0.839), rgb(13, 13, 13));
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(246, 246, 246, 0.774);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.send:hover {
+    background: linear-gradient(rgba(8, 8, 8, 0.748), rgb(41, 41, 41));
+    cursor: pointer;
+}
+
+.content-info {
+    margin: 20%;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+}
+
+.content-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+
+.banner-low-pic {
+    width: 1500px;
+    height: 400px;
+    background-color: aquamarine;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(40%);
+    mask-image: linear-gradient(to bottom, black 0%, black 50%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,0.4) 85%, transparent 100%);
+}
+
+.banner-low {
+    position: relative;
+    height: 10%;
+}
+
+.content-page {
+    margin-top: 400px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-img{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    filter: brightness(70%);
+    border-radius: 5px;
+    transition: 1s;
+}
+.gallery-img:hover {
+    filter: brightness(100%);
+    transform: scale(1.5);
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.important-info {
+    background-color: rgb(241, 241, 241);
+    padding: 5px 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.important {
+    color: red;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    background-color: rgba(207, 207, 207, 0.337);
+    padding: 30px;
+    border-radius: 10px;
+}
