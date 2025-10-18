@@ -1,6 +1,5 @@
-console.log("hello");
 
-let galleryImages = ['house.jpg', 'house.jpg', 'house.jpg', 'house.jpg', 'house.jpg', 'house.jpg'];
+let galleryImages = ['fon.png', 'fon.png', 'fon.png', 'fon.png', 'fon.png', 'fon.png'];
 
 function add_gallery() {
   const gallery = document.getElementById('gallery');
